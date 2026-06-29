@@ -1,8 +1,8 @@
-#include "neuralscope/trace/trace_reader.hpp"
+#include "inferscope/trace/trace_reader.hpp"
 #include <iostream>
 #include <cstring>
 
-namespace neuralscope {
+namespace inferosco {
 
 TraceReader::TraceReader(const std::string& filename) {
     open(filename);
@@ -221,4 +221,4 @@ uint32_t TraceReader::currentIndex() const {
     return current_index_;
 }
 
-} // namespace neuralscope
+} 
