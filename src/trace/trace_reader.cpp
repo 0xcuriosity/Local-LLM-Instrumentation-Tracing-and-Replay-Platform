@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 
-namespace inferosco {
+namespace inferoscope {
 
 TraceReader::TraceReader(const std::string& filename) {
     open(filename);
